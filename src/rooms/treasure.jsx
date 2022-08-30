@@ -5,7 +5,7 @@ import { Link } from '@mui/material';
 
 const SCREEN_WIDTH=12
 
-export default function treasure() {
+export default function Treasure() {
     
 
 
