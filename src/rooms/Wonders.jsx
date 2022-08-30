@@ -1,7 +1,7 @@
 import {React, useState} from 'react';
 import { Grid, Paper} from "@mui/material";
 import { Link } from '@mui/material';
-import Lock from '../components/lock';
+import Lock from '../components/Lock';
 
 
 const SCREEN_WIDTH=12
