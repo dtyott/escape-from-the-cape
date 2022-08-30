@@ -8,9 +8,9 @@ import {
   Route
 } from "react-router-dom";
 
-import Intro from './rooms/Intro';
-import Treasure from './rooms/Treasure';
-import Wonders from './rooms/Wonders';
+import IntroRoom from './rooms/IntroRoom';
+import TreasureRoom from './rooms/TreasureRoom';
+import Wonders from './rooms/WonderRoom';
 
 const color_dict = [
   {"token":"treasure", "color":"gold"},
@@ -31,8 +31,8 @@ function App() {
       <div>
         
         <Routes>
-        <Route exact path="/" element={Intro()} />
-        <Route path="/treasure" element={Treasure()} />
+        <Route exact path="/" element={IntroRoom()} />
+        <Route path="/treasure" element={TreasureRoom()} />
         <Route path="/wonders" element={Wonders()} />
 
 
